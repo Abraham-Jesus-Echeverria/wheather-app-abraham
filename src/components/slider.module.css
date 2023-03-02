@@ -1,0 +1,4 @@
+.transition_left{ 
+    transform: translateX(0);
+    transition: transform 0.3s linear;
+}

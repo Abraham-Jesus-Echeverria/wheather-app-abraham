@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+
+.louderStyles { 
+  height: 100vh;
+}
+.background-opacity{ 
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundWeatherInfo{ 
+  background: linear-gradient(45deg, #636e72, #192a56, #636e72);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.animationLouder{ 
+  animation: Loading 1.3s normal infinite ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes Loading {
+   0% { 
+      transform: rotateZ(0deg);
+ }
+
+ 100%{ 
+  transform: rotateZ(360deg);
+ }
 }
 
-.App-link {
-  color: #61dafb;
+.containerImageTemp{ 
+  width: 50px; 
+  height: 50px;
+} 
+.height{ 
+  height: 400px; 
+}
+.bg-cards{ 
+  /* background-color: rgb(39, 60, 117, 0.5); */ 
+  background-color: rgb(0, 0, 0, 0.3) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* estilos slider */
+.height-slider{ 
+  height: 200px;
 }
+.z-index{ 
+  z-index: 100;
+}
+.myleft{ 
+  margin-left: 2.1rem;
+} 
+.myrigth{ 
+  margin-right: 0.5rem;
+} 
+
+.rigth0{  
+  right: 0;
+} 
+
+.font-size-15rem{ 
+  font-size: 1.5rem;
+}
+.font-size-2rem{ 
+  font-size: 1.5rem;
+}
+.font-size-25rem{ 
+  font-size: 2.5rem;
+}
+.min-width-250{ 
+  min-width: 250px; 
+}
+/* funcionamiento slider */ 
