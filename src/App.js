@@ -45,7 +45,7 @@ export default function App () {
     
     useEffect(() =>{
       getDataLocation(); 
-      console.log(process.env.REACT_APP_WEATHER_KEY); 
+      console.log(process.env.REACT_APP_WEATHER_KEY ); 
     }
     ,[]);
 
