@@ -6,6 +6,7 @@ import useFetch from "./hooks/fetch";
 import useGeolocation from "./hooks/GetGeolocation"; 
 import Louder from "./components/louder";  
 import BackgroundImage from "./assets/images/lluvia.webp"; 
+import wheatherApp from "./assets/images/weatherApp.webp"; 
 
 let styleBackground = { 
   background: `url(${BackgroundImage})`,  
@@ -45,7 +46,7 @@ export default function App () {
     
     useEffect(() =>{
       getDataLocation(); 
-      console.log(process.env.REACT_APP_WEATHER_KEY ); 
+      console.log(wheatherApp); 
     }
     ,[]);
 
