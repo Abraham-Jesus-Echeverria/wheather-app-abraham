@@ -46,7 +46,6 @@ export default function App () {
     
     useEffect(() =>{
       getDataLocation(); 
-      console.log(wheatherApp); 
     }
     ,[]);
 
